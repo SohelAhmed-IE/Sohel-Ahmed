@@ -29,68 +29,21 @@ a:hover {
 
 header {
     background-color: #343a40; /* Dark header background */
-    color: #f8f9fa; /* Light header text color */
-    padding: 10px 0;
+    color: #ffffff; /* White text color */
+    width: calc(100vw - 40px); /* Adjust to make 1 inch wide */
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it's above other content */
 }
 
-.logo img {
-    height: 50px; /* Adjust according to your logo size */
+.container .header-left {
+    float: left;
+}
+
+.container nav {
+    float: right;
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
-    margin-top: 10px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-main {
-    padding: 20px 0;
-}
-
-.wide-section {
-    background-color: #ffffff; /* White background */
-    padding: 40px 0;
-}
-
-.wide-section .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.left-section {
-    width: calc(50% - 30px); /* Adjust width as needed */
-}
-
-.left-section img {
-    width: 100%; /* Make image responsive */
-    max-width: 200px; /* Limit image width */
-    height: auto;
-    border-radius: 50%; /* Optional: for rounded corners */
-    margin-bottom: 20px;
-}
-
-.right-section {
-    width: calc(50% - 30px); /* Adjust width as needed */
-}
-
-.right-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #343a40; /* Dark footer background */
-    color: #f8f9fa; /* Light footer text color */
-    text-align: center;
-    padding: 20px 0;
-}
