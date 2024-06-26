@@ -11,16 +11,45 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.branding h1 {
+    margin: 0;
+}
+
+.branding img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
 header nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 15px;
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
 header nav ul li a {
