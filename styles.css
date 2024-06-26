@@ -10,7 +10,6 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +31,8 @@ header .container {
 
 .branding h1 {
     margin: 0;
+    font-size: 1.5em;
+    color: #ffcc00; /* Gold color for the name */
 }
 
 .branding img {
@@ -73,7 +74,7 @@ header nav ul li a:hover {
     flex-direction: column;
 }
 
-.hero h1 {
+.hero h2 {
     font-size: 3em;
     margin: 0;
 }
