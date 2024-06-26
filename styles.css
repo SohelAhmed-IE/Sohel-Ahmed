@@ -34,12 +34,12 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background: #2c2c2c; /* Dark gray background */
+    background: url('hero-image.jpg') no-repeat center center/cover;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f4f4f4; /* Light text color for contrast */
+    color: white;
     text-align: center;
     flex-direction: column;
 }
