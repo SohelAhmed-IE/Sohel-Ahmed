@@ -10,47 +10,17 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.branding {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.branding h1 {
-    margin: 0;
-    font-size: 1.5em;
-    color: #ffcc00; /* Gold color for the name */
-}
-
-.branding img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: 10px;
+    text-align: center;
 }
 
 header nav ul {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    gap: 15px;
 }
 
 header nav ul li {
     display: inline;
+    margin: 0 15px;
 }
 
 header nav ul li a {
@@ -74,7 +44,7 @@ header nav ul li a:hover {
     flex-direction: column;
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 3em;
     margin: 0;
 }
