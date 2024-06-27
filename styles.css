@@ -10,17 +10,34 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #ffcc00; /* Gold color for the name */
 }
 
 header nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 15px;
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
 header nav ul li a {
@@ -33,35 +50,29 @@ header nav ul li a:hover {
     background-color: #555;
 }
 
-.hero {
-    background: #2c2c2c; /* Dark gray background */
-    height: 70vh;
+.content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f4f4f4; /* Light text color for contrast */
-    text-align: center;
-    flex-direction: column;
-}
-
-.hero h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 1.5em;
-}
-
-.about {
-    padding: 40px 20px;
-    max-width: 800px;
+    justify-content: space-between;
+    padding: 20px;
+    width: 90%;
     margin: 0 auto;
-    background-color: #444; /* Slightly lighter gray for contrast */
-    border-radius: 8px;
 }
 
-.about h2 {
+.left-column {
+    width: 30%;
+    text-align: center;
+}
+
+.left-column img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.right-column {
+    width: 65%;
+}
+
+.right-column h2 {
     border-bottom: 2px solid #666;
     padding-bottom: 5px;
     margin-bottom: 20px;
