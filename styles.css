@@ -88,3 +88,14 @@ footer {
     background-color: #333;
     color: white;
 }
+
+/* Add styles for links */
+a {
+    color: #ffcc00; /* Green color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff; /* White color on hover */
+    text-decoration: underline;
+}
